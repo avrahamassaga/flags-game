@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+  font-family: 'Varela Round', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-image: linear-gradient(#bbedff,#fdc48b);
+}
+
+code {
+  font-family: 'Varela Round', sans-serif;
+}
+
+.flex-center-col{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.flex-center-row{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+

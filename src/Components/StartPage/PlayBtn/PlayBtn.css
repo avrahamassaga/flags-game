@@ -1,0 +1,32 @@
+.playBtn-Container{
+    margin-top: 5%;
+}
+
+.playBtn-Container button{
+    width: 150px;
+    height: 80px;
+    border: 2px solid white;
+    box-shadow: 3px 3px 2px rgb(87, 87, 87);
+    border-radius: 15px;
+    font-size: 32px;
+    background-color: #2A9D8F;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 2px black;
+    font-weight: bold;
+}
+
+.details{
+    background-color: #ffffff;
+    padding: 15px;
+    font-size: 24px;
+    font-weight: bold;
+    width: 230px;
+    border-radius: 15px;
+    color: #0e4453;
+    border: 2px solid #1a5363;
+    /* box-shadow: 3px 3px 2px #000000; */
+}
+.details p{
+    padding: 0;
+    margin: 0;
+}

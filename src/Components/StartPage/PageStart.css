@@ -1,0 +1,7 @@
+.homePage-container{
+    /* background-size: cover; */
+    background-repeat: no-repeat;
+    background-position: bottom ;
+    background-size: 600px ;
+    height: 100vh;
+}
