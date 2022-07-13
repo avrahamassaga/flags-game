@@ -1,6 +1,6 @@
 import React from 'react'
 import './Head.css'
-import {globusGif,cloudGif} from '../../../assets/MediaData'
+import {globusGif} from '../../../assets/MediaData'
 export default function Head() {
   function restRec(){
     localStorage.setItem('recordPlayer',0)

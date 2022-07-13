@@ -8,6 +8,7 @@ export default function PlayBtn() {
   const{playerRecord}=useContext(FlagContext)
   return (
     <div className='playBtn-Container flex-center-col'>
+      
       <div className="details">
         <p>:הידע שלך על העולם</p>
         <p>{(playerRecord*coutries.length)/100}%</p>

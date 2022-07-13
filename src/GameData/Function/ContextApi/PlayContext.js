@@ -18,9 +18,12 @@ export function FlagProvider({ children }) {
     } else {
       if (misTakes <= 1) {
         nav("/");
-        setmisTakes(mistakes);
+        setmisTakes(5);
         setGameLevel(0);
-      } else setmisTakes((val) => val - 1);
+      } else{ 
+        setmisTakes(misTakes - 1)
+        if(mistakes<=0)setmisTakes(5)
+      };
     }
   }
 
@@ -28,7 +31,6 @@ export function FlagProvider({ children }) {
     if(gameLevel>Number(localStorage.getItem('recordPlayer'))-1){
       setplayerRecord(gameLevel+1)
       localStorage.setItem('recordPlayer',gameLevel+1)
-      console.log(localStorage.getItem('recordPlayer'));
     };
   }
   function restGame() {

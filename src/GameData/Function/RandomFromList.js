@@ -30,6 +30,7 @@ function getRandomAnswer(contry,suffledList) {
     if (contry.code != rnfCountri.code) randomAns.push(rnfCountri);
   }
   randomAns.push(contry);
+  const ansWithColors = randomAns.forEach((val,i,all)=> {i<all.length-1?val.answer=false: val.answer=true});
   return suffled(randomAns);
 }
 
