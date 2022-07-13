@@ -41,7 +41,7 @@ export default function KeyBtn(props) {
         ref={keyRef}
         onClick={() => clickAnswer(ans)}
       >
-        {ans.name}
+        {ans.heb}
       </button>
     </div>
   );
