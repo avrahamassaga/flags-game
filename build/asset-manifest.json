@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/flags-game/static/css/main.7195e47e.css",
-    "main.js": "/flags-game/static/js/main.98344fa7.js",
+    "main.js": "/flags-game/static/js/main.bb323315.js",
     "static/media/globusGif.gif": "/flags-game/static/media/globusGif.3511031bcbe580e593da.gif",
     "static/media/island.png": "/flags-game/static/media/island.edb87dfa0a1341fd8ef9.png",
     "static/media/clouds.gif": "/flags-game/static/media/clouds.d26d62c3df55c80a0575.gif",
     "index.html": "/flags-game/index.html",
     "main.7195e47e.css.map": "/flags-game/static/css/main.7195e47e.css.map",
-    "main.98344fa7.js.map": "/flags-game/static/js/main.98344fa7.js.map"
+    "main.bb323315.js.map": "/flags-game/static/js/main.bb323315.js.map"
   },
   "entrypoints": [
     "static/css/main.7195e47e.css",
-    "static/js/main.98344fa7.js"
+    "static/js/main.bb323315.js"
   ]
 }
