@@ -7,7 +7,7 @@ import "./Board.css";
 export default function Board() {
   const nav = useNavigate();
   const { playFlag,misTakes,gameLevel,restGame} = useContext(FlagContext);
-  const flag = `https://flagcdn.com/w160/${playFlag.code.toLowerCase()}.jpg`;
+  const flag = `https://flagcdn.com/w320/${playFlag.code.toLowerCase()}.jpg`;
   function exitGame(){
     restGame();
     nav('/');
